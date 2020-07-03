@@ -9,15 +9,6 @@ import UIKit
 
 public class CleanyModalPresenter: NSObject, UIViewControllerAnimatedTransitioning {
 
-    private func animation(for keyPath: String, value: Any) -> CABasicAnimation {
-        let animation = CABasicAnimation(keyPath: keyPath)
-        animation.toValue = value
-        animation.isRemovedOnCompletion = false
-        animation.fillMode = CAMediaTimingFillMode.forwards
-
-        return animation
-    }
-
     public func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
         return 0.2
     }
