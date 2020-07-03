@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func showBasicAlertAction(_ sender: UIButton) {
-        let styleSettings = CleanyAlertConfig.defaults()
+        let styleSettings = CleanyAlertConfig.defaultStyleSettings()
         styleSettings[.cornerRadius] = 15
         styleSettings[.actionCellHeight] = 44
         styleSettings[.tintColor] = .black
@@ -97,7 +97,7 @@ class ViewController: UIViewController {
 class MyAlertViewController: CleanyAlertViewController {
     
     init(title: String?, message: String?, imageName: String? = nil, preferredStyle: CleanyAlertViewController.Style = .alert) {
-        let styleSettings = CleanyAlertConfig.defaults()
+        let styleSettings = CleanyAlertConfig.defaultStyleSettings()
         styleSettings[.cornerRadius] = 18
         super.init(title: title, message: message, imageName: imageName, preferredStyle: preferredStyle, styleSettings: styleSettings)
     }

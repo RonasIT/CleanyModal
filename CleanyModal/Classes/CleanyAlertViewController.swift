@@ -73,7 +73,7 @@ open class CleanyAlertViewController: CleanyModalViewController {
         )
         
         self.dataSource = AlertModel(title: title, message: message, iconName: imageName)
-        self.styleSettings = styleSettings ?? CleanyAlertConfig.defaults()
+        self.styleSettings = styleSettings ?? CleanyAlertConfig.defaultStyleSettings()
         self.preferredStyle = preferredStyle
         
         if let nibName = customNibName {

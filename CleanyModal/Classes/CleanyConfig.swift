@@ -11,7 +11,7 @@ public struct CleanyAlertConfig { }
 
 public extension CleanyAlertConfig {
     
-    static func defaults() -> StyleSettings {
+    static func defaultStyleSettings() -> StyleSettings {
         let styleSettings = StyleSettings()
         
         styleSettings.set(key: .cornerRadius, value: 15)
