@@ -11,15 +11,16 @@ public struct CleanyAlertConfig { }
 
 public extension CleanyAlertConfig {
     
-    static func getDefaultStyleSettings() -> StyleSettings {
+    static func defaults() -> StyleSettings {
         let styleSettings = StyleSettings()
         
         styleSettings.set(key: .cornerRadius, value: 15)
-        styleSettings.set(key: .actionCellHeight, value: 60)
+        styleSettings.set(key: .actionCellHeight, value: 44)
         
         styleSettings.set(key: .tintColor, value: .blue)
         styleSettings.set(key: .textColor, value: .black)
         styleSettings.set(key: .destructiveColor, value: .red)
+        styleSettings.set(key: .separatorColor, value: .init(white: 0.7, alpha: 1))
         
         if #available(iOS 13.0, *) {
             #if swift(>=5.0)
@@ -74,11 +75,11 @@ public extension CleanyAlertConfig.StyleKeys {
     static let textColor = CleanyAlertConfig.StyleKey<UIColor>("textColor")
     static let defaultActionColor = CleanyAlertConfig.StyleKey<UIColor>("defaultActionColor")
     static let destructiveColor = CleanyAlertConfig.StyleKey<UIColor>("destructiveColor")
+    static let separatorColor = CleanyAlertConfig.StyleKey<UIColor>("separatorColor")
     
     static let actionCellHeight = CleanyAlertConfig.StyleKey<CGFloat>("actionCellHeight")
     
     static let titleFont = CleanyAlertConfig.StyleKey<UIFont>("titleFont")
     static let messageFont = CleanyAlertConfig.StyleKey<UIFont>("messageFont")
     static let actionsFont = CleanyAlertConfig.StyleKey<UIFont>("actionsFont")
-    
 }

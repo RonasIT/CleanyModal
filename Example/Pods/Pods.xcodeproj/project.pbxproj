@@ -7,319 +7,335 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		14E8F182E82E5BC3021490BD61236664 /* CleanyModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185CB41D377BE96FFFF1F33596556E67 /* CleanyModalViewController.swift */; };
-		19A8DBCED0466FCBA651C9A394824ADF /* Pods-CleanyModal_Example-CleanyModal_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B596B92A3C1406B6388A31D090E2816 /* Pods-CleanyModal_Example-CleanyModal_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2140D51558D0C4AABEED2A4EF5D0C42C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		5A0E38830423D386AA983EC791E27F01 /* CleanyAlertActionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124FA3FFE3EF52A490A9A8C62EC89915 /* CleanyAlertActionTableViewCell.swift */; };
-		6F75637FB8334A6D90F3EFAFD0D6422F /* CleanyConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23EF7AA942DB48B2CAEDC6B98DA1BAE /* CleanyConfig.swift */; };
-		8EB2CE602E0D6667788532BBDB7A4F74 /* Pods-CleanyModal_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF51C5B9E8D2CE0AEA805B19C926EC3 /* Pods-CleanyModal_Example-dummy.m */; };
-		9A3C93D2B19D3BB115C23923035BAFC7 /* CleanyAlertViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 384980DB268B69183748A6F150182EEF /* CleanyAlertViewController.xib */; };
-		9C49A65E23C4DC550012C823 /* AlertModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49A65D23C4DC550012C823 /* AlertModel.swift */; };
-		9C49A66023C4DC5F0012C823 /* NSLayoutConstraint+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49A65F23C4DC5F0012C823 /* NSLayoutConstraint+Extension.swift */; };
-		A04D89FEAC8C6F4D0270B8F8C54AABE8 /* CleanyAlertActionTableViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = E925025DD1E9CB928D1F8066F6658DB5 /* CleanyAlertActionTableViewCell.xib */; };
-		B233761DFE65558F1BE66CF4C96EF5FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		BACFB0B49530786397F7A18728BD37E8 /* CleanyModal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCD6D4929256CCA66874B420EDCAE30 /* CleanyModal-dummy.m */; };
-		CA7A178F562C72937CE35C46473D0CB9 /* Pods-CleanyModal_Example-CleanyModal_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D79806F6BF2C254E3377351BF8CEC8D9 /* Pods-CleanyModal_Example-CleanyModal_Tests-dummy.m */; };
-		CE5645862F841EC309A645C3A9C646B1 /* CleanyModalTransitionDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DF7145F2094399C53D5E69DE8060EA /* CleanyModalTransitionDelegates.swift */; };
-		DBEE045B99E6A46186240FAAE0D47767 /* CleanyModal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB95DC6359EE7FFC5EE8D3AA57004EEA /* CleanyModal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E90BFF3366A65EE0301883B18DA29A7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		E9A4C7B87CF295EE1CE5B2368FF6594E /* Pods-CleanyModal_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56230807682372B07E3AD286F23632C0 /* Pods-CleanyModal_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5851D9401DD2348D879D0C24D1826B4 /* CleanyAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB515C2C39A8F591A88E5A7ABEB91C8 /* CleanyAlertViewController.swift */; };
+		012764188FF2117F47B829F2F8A8D605 /* CleanyAlertActionTableViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = E41AA1D3810E6EBF334787B446C6BFD4 /* CleanyAlertActionTableViewCell.xib */; };
+		1F2317F9F31DA8500C929C794E1B0481 /* CleanyAlertActionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D59219C6AD3D06D1F42C9494E72EE02 /* CleanyAlertActionTableViewCell.swift */; };
+		2B0320AE0D9507B3D66FE25A6D546D66 /* CleanyAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EA3775FA7196F6316D62915BCB18D7 /* CleanyAlertViewController.swift */; };
+		3B85800A963123A0078CD29D03A3B0DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		587BF4B2A96B3FB009EAABD5348014FF /* UIFont+Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE783ADDD4ABAF6E66AA881A7CDB26A /* UIFont+Transform.swift */; };
+		5FCAC99BC6ECCB6D4D403D68FFCFD990 /* CleanyModal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E9FB07A54946B9656A99404293237FE /* CleanyModal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62D5FBC61D39E66942463361118C160F /* AlertModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E60DF4B117FDC1608F535C8655E1 /* AlertModel.swift */; };
+		644ABB2BE97D5800FB980620F00F3C3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		650DE0C38E839E9EA411BA9795808503 /* NSLayoutConstraint+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076FD6D88439D49094D2F62230AD7080 /* NSLayoutConstraint+Extension.swift */; };
+		6D57B6B424AF4EE30072D9AB /* CleanyModalDismisser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D57B6B124AF4EE30072D9AB /* CleanyModalDismisser.swift */; };
+		6D57B6B524AF4EE30072D9AB /* CleanyModalPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D57B6B224AF4EE30072D9AB /* CleanyModalPresenter.swift */; };
+		6D57B6B624AF4EE30072D9AB /* CleanyModalTransitionInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D57B6B324AF4EE30072D9AB /* CleanyModalTransitionInteractor.swift */; };
+		738F298176D64C10D92B6EFED06EFA3B /* CleanyModal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 602ECFA2EE20A364C8DF4E5D5B86C7E6 /* CleanyModal-dummy.m */; };
+		7AE0498B8D1BAC7A1C206B83C92CDA33 /* CleanyAlertViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 22A597881553C39BA885582F5788EDFE /* CleanyAlertViewController.xib */; };
+		954418451D92E73F3A98F7F20263B1E1 /* Pods-CleanyModal_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E047636F7B0355C6E30913BAE9BE78E /* Pods-CleanyModal_Example-dummy.m */; };
+		A6A709C8F4800AC623F2105E41DE2921 /* CleanyConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3E02DDC2A8847FAA4C94ECA98C2E31 /* CleanyConfig.swift */; };
+		E01D715ECE3FBAB8707D19FEB2713BA9 /* Pods-CleanyModal_Example-CleanyModal_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8636EBA5D1B8E2577E433E5B518E160D /* Pods-CleanyModal_Example-CleanyModal_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED3249A8A59D137CAD116A4BAB9110AF /* CleanyModalTransitionDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E2B7DF40BBDA8BCD5F72865702333 /* CleanyModalTransitionDelegates.swift */; };
+		ED36068BAF9B88B4AFAE5ADAE775A972 /* Pods-CleanyModal_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A5D2DB1C4B0FFDD787CE8CC2F712541 /* Pods-CleanyModal_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F18FBBD86786C7B5EB534A5B8F52CF89 /* CleanyModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B8F63A6BA2A61CCE986A273B29F168 /* CleanyModalViewController.swift */; };
+		F2E20ABAAE3F2177E6E9C37D53EE6378 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F4A094CFB170DB67CBD4CECECF640ED5 /* Pods-CleanyModal_Example-CleanyModal_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B67C90D54B6105847B26E7F4D420C8 /* Pods-CleanyModal_Example-CleanyModal_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4912B171D7CE7A75A7754788A6590A43 /* PBXContainerItemProxy */ = {
+		195D9A3D036821839864D21CCD652757 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5C2180AB1D8E117DE733E0A0552D8364;
+			remoteGlobalIDString = 9C45A829CDBA420E188ABC8136AA36AF;
 			remoteInfo = CleanyModal;
 		};
-		A64ED27189F3DEA3B6FD41AD85FFF0A3 /* PBXContainerItemProxy */ = {
+		5975D5320D645F215E3FE78E0CA88737 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5C2180AB1D8E117DE733E0A0552D8364;
+			remoteGlobalIDString = 9C45A829CDBA420E188ABC8136AA36AF;
 			remoteInfo = CleanyModal;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04781DC1E844651229847B76D586F1D8 /* Pods_CleanyModal_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CleanyModal_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A64BAD765FE01C6932C07148F4282CA /* Pods-CleanyModal_Example-CleanyModal_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CleanyModal_Example-CleanyModal_Tests-Info.plist"; sourceTree = "<group>"; };
-		0FDD98CB7A6795E073C16F36BC0445B5 /* Pods-CleanyModal_Example-CleanyModal_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CleanyModal_Example-CleanyModal_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		124FA3FFE3EF52A490A9A8C62EC89915 /* CleanyAlertActionTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CleanyAlertActionTableViewCell.swift; path = CleanyModal/Classes/CleanyAlertActionTableViewCell.swift; sourceTree = "<group>"; };
-		1314A2AF375577DA2A13B4A48F2BBE1F /* Pods_CleanyModal_Example_CleanyModal_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CleanyModal_Example_CleanyModal_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		17D43630CCB67336DCA00DA02D469CAC /* Pods-CleanyModal_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CleanyModal_Example-frameworks.sh"; sourceTree = "<group>"; };
-		185CB41D377BE96FFFF1F33596556E67 /* CleanyModalViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CleanyModalViewController.swift; path = CleanyModal/Classes/CleanyModalViewController.swift; sourceTree = "<group>"; };
-		1E2AEE4B84D263EAC4213A729225B82C /* CleanyModal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CleanyModal.modulemap; sourceTree = "<group>"; };
-		2B16E34311E33BA895641F9099488903 /* Pods-CleanyModal_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CleanyModal_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2BF51C5B9E8D2CE0AEA805B19C926EC3 /* Pods-CleanyModal_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CleanyModal_Example-dummy.m"; sourceTree = "<group>"; };
-		384980DB268B69183748A6F150182EEF /* CleanyAlertViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CleanyAlertViewController.xib; path = CleanyModal/Classes/CleanyAlertViewController.xib; sourceTree = "<group>"; };
-		3BB515C2C39A8F591A88E5A7ABEB91C8 /* CleanyAlertViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; indentWidth = 4; lastKnownFileType = sourcecode.swift; name = CleanyAlertViewController.swift; path = CleanyModal/Classes/CleanyAlertViewController.swift; sourceTree = "<group>"; tabWidth = 4; };
-		45DF7145F2094399C53D5E69DE8060EA /* CleanyModalTransitionDelegates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CleanyModalTransitionDelegates.swift; path = CleanyModal/Classes/CleanyModalTransitionDelegates.swift; sourceTree = "<group>"; };
-		56230807682372B07E3AD286F23632C0 /* Pods-CleanyModal_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CleanyModal_Example-umbrella.h"; sourceTree = "<group>"; };
-		6436E8FA0AE282068DC69CFB63CE77EC /* Pods-CleanyModal_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CleanyModal_Example.modulemap"; sourceTree = "<group>"; };
-		69C40B81ECE291180A38E3ED95505167 /* CleanyModal-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CleanyModal-Info.plist"; sourceTree = "<group>"; };
-		6B596B92A3C1406B6388A31D090E2816 /* Pods-CleanyModal_Example-CleanyModal_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CleanyModal_Example-CleanyModal_Tests-umbrella.h"; sourceTree = "<group>"; };
-		759EE96C64EC51375518F0DF179F6F77 /* Pods-CleanyModal_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CleanyModal_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		76C98879B78D0A86A35A50ED920B7602 /* Pods-CleanyModal_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CleanyModal_Example-Info.plist"; sourceTree = "<group>"; };
-		7E7CB11D4F5A23C44A8BCF3184570E85 /* CleanyModal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CleanyModal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B511DD134916FA964CBB010FE8C6F15 /* CleanyModal.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CleanyModal.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		94E2CDEF9690310878662C5FD5C8D1DF /* Pods-CleanyModal_Example-CleanyModal_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CleanyModal_Example-CleanyModal_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		96515E8C3A3EEA93536094862E3F3B65 /* Pods-CleanyModal_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CleanyModal_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		98C5218DEA7407553D5A1915821ABBD4 /* CleanyModal-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CleanyModal-prefix.pch"; sourceTree = "<group>"; };
-		9C49A65D23C4DC550012C823 /* AlertModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlertModel.swift; path = ../CleanyModal/Classes/Model/AlertModel.swift; sourceTree = "<group>"; };
-		9C49A65F23C4DC5F0012C823 /* NSLayoutConstraint+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSLayoutConstraint+Extension.swift"; path = "../CleanyModal/Classes/Helper/NSLayoutConstraint+Extension.swift"; sourceTree = "<group>"; };
-		AA6111FE039AD24663CC17DED69417E8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		AA9EED76131E5F457656147D73DEEFCE /* CleanyModal.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CleanyModal.xcconfig; sourceTree = "<group>"; };
-		AB95DC6359EE7FFC5EE8D3AA57004EEA /* CleanyModal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CleanyModal-umbrella.h"; sourceTree = "<group>"; };
-		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C10631B5AEB3F4AB3605E3C690304451 /* Pods-CleanyModal_Example-CleanyModal_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CleanyModal_Example-CleanyModal_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C8E34D9A68FD6DF660981A0125DDC35E /* Pods-CleanyModal_Example-CleanyModal_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CleanyModal_Example-CleanyModal_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D23EF7AA942DB48B2CAEDC6B98DA1BAE /* CleanyConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; indentWidth = 4; lastKnownFileType = sourcecode.swift; name = CleanyConfig.swift; path = CleanyModal/Classes/CleanyConfig.swift; sourceTree = "<group>"; tabWidth = 4; };
-		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D79806F6BF2C254E3377351BF8CEC8D9 /* Pods-CleanyModal_Example-CleanyModal_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CleanyModal_Example-CleanyModal_Tests-dummy.m"; sourceTree = "<group>"; };
-		DCCD6D4929256CCA66874B420EDCAE30 /* CleanyModal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CleanyModal-dummy.m"; sourceTree = "<group>"; };
-		E438077D2EDF86A56135D486F7FF39AA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		E77F9D442B74C0AD551C1305692F0F1A /* Pods-CleanyModal_Example-CleanyModal_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CleanyModal_Example-CleanyModal_Tests.modulemap"; sourceTree = "<group>"; };
-		E925025DD1E9CB928D1F8066F6658DB5 /* CleanyAlertActionTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CleanyAlertActionTableViewCell.xib; path = CleanyModal/Classes/CleanyAlertActionTableViewCell.xib; sourceTree = "<group>"; };
-		F12D55BD3811BAE0F826572901FFDD62 /* Pods-CleanyModal_Example-CleanyModal_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CleanyModal_Example-CleanyModal_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		F6B884E5C300926C2402E1BFE9F345C5 /* Pods-CleanyModal_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CleanyModal_Example.release.xcconfig"; sourceTree = "<group>"; };
+		04434F27C8D3CE880CE07754CD5D1BE4 /* Pods-CleanyModal_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CleanyModal_Example-frameworks.sh"; sourceTree = "<group>"; };
+		06B8F63A6BA2A61CCE986A273B29F168 /* CleanyModalViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CleanyModalViewController.swift; path = CleanyModal/Classes/CleanyModalViewController.swift; sourceTree = "<group>"; };
+		074C3DFA0358BA5C2F084DEB057D7726 /* CleanyModal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CleanyModal.modulemap; sourceTree = "<group>"; };
+		076FD6D88439D49094D2F62230AD7080 /* NSLayoutConstraint+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSLayoutConstraint+Extension.swift"; sourceTree = "<group>"; };
+		0A958A0F3451F3866DF6A0796D73E92C /* Pods-CleanyModal_Example-CleanyModal_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CleanyModal_Example-CleanyModal_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1352914E0DB0CC5F8B75FF989ACE36E4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		14D85481A9306680E3DEEEC998C9EBB1 /* Pods-CleanyModal_Example-CleanyModal_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CleanyModal_Example-CleanyModal_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		189E2B7DF40BBDA8BCD5F72865702333 /* CleanyModalTransitionDelegates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CleanyModalTransitionDelegates.swift; path = CleanyModal/Classes/CleanyModalTransitionDelegates.swift; sourceTree = "<group>"; };
+		22A597881553C39BA885582F5788EDFE /* CleanyAlertViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CleanyAlertViewController.xib; path = CleanyModal/Classes/CleanyAlertViewController.xib; sourceTree = "<group>"; };
+		24A9848493FBD15ED2B29DC07CB93EFA /* Pods-CleanyModal_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CleanyModal_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2C7D7EE190974AB4BFA3B7D2CCCE9C88 /* CleanyModal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CleanyModal.debug.xcconfig; sourceTree = "<group>"; };
+		2CE783ADDD4ABAF6E66AA881A7CDB26A /* UIFont+Transform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIFont+Transform.swift"; sourceTree = "<group>"; };
+		2E047636F7B0355C6E30913BAE9BE78E /* Pods-CleanyModal_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CleanyModal_Example-dummy.m"; sourceTree = "<group>"; };
+		2E9FB07A54946B9656A99404293237FE /* CleanyModal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CleanyModal-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3470E60DF4B117FDC1608F535C8655E1 /* AlertModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AlertModel.swift; sourceTree = "<group>"; };
+		3CBD842F411F97B14C592688EFF6178D /* Pods-CleanyModal_Example-CleanyModal_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CleanyModal_Example-CleanyModal_Tests.modulemap"; sourceTree = "<group>"; };
+		477641521C03F75DCA03D6092C97E493 /* CleanyModal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CleanyModal.release.xcconfig; sourceTree = "<group>"; };
+		47FB99B4A982BC6165FF33A7F31B3B74 /* Pods_CleanyModal_Example_CleanyModal_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CleanyModal_Example_CleanyModal_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		488D580A4F53A6E614E71EF63F75A16F /* CleanyModal-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CleanyModal-Info.plist"; sourceTree = "<group>"; };
+		4926E45EC7B9D51651A9C9E59F2E1285 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4948894E330AAF529098BA68AADE6A3C /* Pods-CleanyModal_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CleanyModal_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4D59219C6AD3D06D1F42C9494E72EE02 /* CleanyAlertActionTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CleanyAlertActionTableViewCell.swift; path = CleanyModal/Classes/CleanyAlertActionTableViewCell.swift; sourceTree = "<group>"; };
+		5BABD4E4BA736B1EBE46C82B3A008E10 /* Pods-CleanyModal_Example-CleanyModal_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CleanyModal_Example-CleanyModal_Tests-Info.plist"; sourceTree = "<group>"; };
+		5D5E8EBC7CEBA93AAD0D8096647CB92D /* Pods-CleanyModal_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CleanyModal_Example-Info.plist"; sourceTree = "<group>"; };
+		602ECFA2EE20A364C8DF4E5D5B86C7E6 /* CleanyModal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CleanyModal-dummy.m"; sourceTree = "<group>"; };
+		6D57B6B124AF4EE30072D9AB /* CleanyModalDismisser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CleanyModalDismisser.swift; path = CleanyModal/Classes/CleanyModalDismisser.swift; sourceTree = "<group>"; };
+		6D57B6B224AF4EE30072D9AB /* CleanyModalPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CleanyModalPresenter.swift; path = CleanyModal/Classes/CleanyModalPresenter.swift; sourceTree = "<group>"; };
+		6D57B6B324AF4EE30072D9AB /* CleanyModalTransitionInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CleanyModalTransitionInteractor.swift; path = CleanyModal/Classes/CleanyModalTransitionInteractor.swift; sourceTree = "<group>"; };
+		6F19C207FF57A79C96CDD602E9A945BE /* CleanyModal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CleanyModal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F393F6DF0A4872DE6DD33E41137C724 /* Pods-CleanyModal_Example-CleanyModal_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CleanyModal_Example-CleanyModal_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		79588ABE45EA98F68D673CEE4EB7FE51 /* Pods-CleanyModal_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CleanyModal_Example.modulemap"; sourceTree = "<group>"; };
+		8636EBA5D1B8E2577E433E5B518E160D /* Pods-CleanyModal_Example-CleanyModal_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CleanyModal_Example-CleanyModal_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9A5D2DB1C4B0FFDD787CE8CC2F712541 /* Pods-CleanyModal_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CleanyModal_Example-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AAADE3752177FBD51DD68EDA83F2BC36 /* Pods-CleanyModal_Example-CleanyModal_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CleanyModal_Example-CleanyModal_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B22528147EE16986EE08EE6A3498455D /* Pods_CleanyModal_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CleanyModal_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2A74D55073D106F3935D0B94F2F68E6 /* CleanyModal-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CleanyModal-prefix.pch"; sourceTree = "<group>"; };
+		B8B67C90D54B6105847B26E7F4D420C8 /* Pods-CleanyModal_Example-CleanyModal_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CleanyModal_Example-CleanyModal_Tests-dummy.m"; sourceTree = "<group>"; };
+		B8EA3775FA7196F6316D62915BCB18D7 /* CleanyAlertViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CleanyAlertViewController.swift; path = CleanyModal/Classes/CleanyAlertViewController.swift; sourceTree = "<group>"; };
+		C511ACDDA3B516F33B66EDA38D3797B1 /* CleanyModal.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CleanyModal.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C90AE216A3298F11583A59BD9DEF51A8 /* Pods-CleanyModal_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CleanyModal_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D3660462A4F53F9CDFCEFE615C93F6AD /* Pods-CleanyModal_Example-CleanyModal_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CleanyModal_Example-CleanyModal_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DD3E02DDC2A8847FAA4C94ECA98C2E31 /* CleanyConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CleanyConfig.swift; path = CleanyModal/Classes/CleanyConfig.swift; sourceTree = "<group>"; };
+		E41AA1D3810E6EBF334787B446C6BFD4 /* CleanyAlertActionTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CleanyAlertActionTableViewCell.xib; path = CleanyModal/Classes/CleanyAlertActionTableViewCell.xib; sourceTree = "<group>"; };
+		F05363592D7A8848BD90E753B913EC34 /* Pods-CleanyModal_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CleanyModal_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		20B5AD3DB7DDC1304EFE98D878E7D527 /* Frameworks */ = {
+		70085F094AB4B1DDC3BD44AA550C7367 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B233761DFE65558F1BE66CF4C96EF5FB /* Foundation.framework in Frameworks */,
+				3B85800A963123A0078CD29D03A3B0DE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4B872FA54546C3162790F4B82C8B8ED2 /* Frameworks */ = {
+		81859345CA393FA92FC24B5DDDC69210 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E90BFF3366A65EE0301883B18DA29A7C /* Foundation.framework in Frameworks */,
+				644ABB2BE97D5800FB980620F00F3C3F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B9D149E7D0C44286AA02805E26B033FA /* Frameworks */ = {
+		A23918047D860CEDFB6AAF6E7E33D5EF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2140D51558D0C4AABEED2A4EF5D0C42C /* Foundation.framework in Frameworks */,
+				F2E20ABAAE3F2177E6E9C37D53EE6378 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+		0879A7C5D88BADA1A22764B57DD80513 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+				9375F6C8568B6AD30C4120FF0F445136 /* CleanyModal */,
 			);
-			name = iOS;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		4E9FE516851626725D8958D14E0697EC /* Pod */ = {
+		123E17D18E3B1F526BCCEC796DEE966D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8B511DD134916FA964CBB010FE8C6F15 /* CleanyModal.podspec */,
-				E438077D2EDF86A56135D486F7FF39AA /* LICENSE */,
-				AA6111FE039AD24663CC17DED69417E8 /* README.md */,
+				6F19C207FF57A79C96CDD602E9A945BE /* CleanyModal.framework */,
+				B22528147EE16986EE08EE6A3498455D /* Pods_CleanyModal_Example.framework */,
+				47FB99B4A982BC6165FF33A7F31B3B74 /* Pods_CleanyModal_Example_CleanyModal_Tests.framework */,
 			);
-			name = Pod;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		504C28D61812FB5C6D1448CAF7E0FF8D /* Support Files */ = {
+		4B3CB3AAAF8E1EF1FDA42F26EB9323C3 /* Pods-CleanyModal_Example-CleanyModal_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				1E2AEE4B84D263EAC4213A729225B82C /* CleanyModal.modulemap */,
-				AA9EED76131E5F457656147D73DEEFCE /* CleanyModal.xcconfig */,
-				DCCD6D4929256CCA66874B420EDCAE30 /* CleanyModal-dummy.m */,
-				69C40B81ECE291180A38E3ED95505167 /* CleanyModal-Info.plist */,
-				98C5218DEA7407553D5A1915821ABBD4 /* CleanyModal-prefix.pch */,
-				AB95DC6359EE7FFC5EE8D3AA57004EEA /* CleanyModal-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CleanyModal";
-			sourceTree = "<group>";
-		};
-		79A851E0468030A7FB610A92E9E7A481 /* Pods-CleanyModal_Example-CleanyModal_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				E77F9D442B74C0AD551C1305692F0F1A /* Pods-CleanyModal_Example-CleanyModal_Tests.modulemap */,
-				94E2CDEF9690310878662C5FD5C8D1DF /* Pods-CleanyModal_Example-CleanyModal_Tests-acknowledgements.markdown */,
-				C10631B5AEB3F4AB3605E3C690304451 /* Pods-CleanyModal_Example-CleanyModal_Tests-acknowledgements.plist */,
-				D79806F6BF2C254E3377351BF8CEC8D9 /* Pods-CleanyModal_Example-CleanyModal_Tests-dummy.m */,
-				F12D55BD3811BAE0F826572901FFDD62 /* Pods-CleanyModal_Example-CleanyModal_Tests-frameworks.sh */,
-				0A64BAD765FE01C6932C07148F4282CA /* Pods-CleanyModal_Example-CleanyModal_Tests-Info.plist */,
-				6B596B92A3C1406B6388A31D090E2816 /* Pods-CleanyModal_Example-CleanyModal_Tests-umbrella.h */,
-				0FDD98CB7A6795E073C16F36BC0445B5 /* Pods-CleanyModal_Example-CleanyModal_Tests.debug.xcconfig */,
-				C8E34D9A68FD6DF660981A0125DDC35E /* Pods-CleanyModal_Example-CleanyModal_Tests.release.xcconfig */,
+				3CBD842F411F97B14C592688EFF6178D /* Pods-CleanyModal_Example-CleanyModal_Tests.modulemap */,
+				AAADE3752177FBD51DD68EDA83F2BC36 /* Pods-CleanyModal_Example-CleanyModal_Tests-acknowledgements.markdown */,
+				6F393F6DF0A4872DE6DD33E41137C724 /* Pods-CleanyModal_Example-CleanyModal_Tests-acknowledgements.plist */,
+				B8B67C90D54B6105847B26E7F4D420C8 /* Pods-CleanyModal_Example-CleanyModal_Tests-dummy.m */,
+				14D85481A9306680E3DEEEC998C9EBB1 /* Pods-CleanyModal_Example-CleanyModal_Tests-frameworks.sh */,
+				5BABD4E4BA736B1EBE46C82B3A008E10 /* Pods-CleanyModal_Example-CleanyModal_Tests-Info.plist */,
+				8636EBA5D1B8E2577E433E5B518E160D /* Pods-CleanyModal_Example-CleanyModal_Tests-umbrella.h */,
+				0A958A0F3451F3866DF6A0796D73E92C /* Pods-CleanyModal_Example-CleanyModal_Tests.debug.xcconfig */,
+				D3660462A4F53F9CDFCEFE615C93F6AD /* Pods-CleanyModal_Example-CleanyModal_Tests.release.xcconfig */,
 			);
 			name = "Pods-CleanyModal_Example-CleanyModal_Tests";
 			path = "Target Support Files/Pods-CleanyModal_Example-CleanyModal_Tests";
 			sourceTree = "<group>";
 		};
-		7DB346D0F39D3F0E887471402A8071AB = {
+		4D9EC218F21E8AD31BF7E206A4462694 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
-				E952BB22101CFDEA4BA1C62D60339E75 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				9E95EC380045A1D41EDA7A84C9CDB92E /* Products */,
-				D815D5C1F184F254E1FC882F5DE7B66D /* Targets Support Files */,
+				3470E60DF4B117FDC1608F535C8655E1 /* AlertModel.swift */,
 			);
+			name = Model;
+			path = CleanyModal/Classes/Model;
 			sourceTree = "<group>";
 		};
-		9C49A65A23C49AE00012C823 /* Model */ = {
+		7023622AEF6DC3EC91CE05F8B39B2BCF /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9C49A65D23C4DC550012C823 /* AlertModel.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		9C7E55A4230EC6CD004975AA /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-				9C49A65F23C4DC5F0012C823 /* NSLayoutConstraint+Extension.swift */,
-			);
-			path = Helper;
-			sourceTree = "<group>";
-		};
-		9E95EC380045A1D41EDA7A84C9CDB92E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7E7CB11D4F5A23C44A8BCF3184570E85 /* CleanyModal.framework */,
-				04781DC1E844651229847B76D586F1D8 /* Pods_CleanyModal_Example.framework */,
-				1314A2AF375577DA2A13B4A48F2BBE1F /* Pods_CleanyModal_Example_CleanyModal_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		9FA206561C917A8644215492CD382501 /* Pods-CleanyModal_Example */ = {
-			isa = PBXGroup;
-			children = (
-				6436E8FA0AE282068DC69CFB63CE77EC /* Pods-CleanyModal_Example.modulemap */,
-				96515E8C3A3EEA93536094862E3F3B65 /* Pods-CleanyModal_Example-acknowledgements.markdown */,
-				759EE96C64EC51375518F0DF179F6F77 /* Pods-CleanyModal_Example-acknowledgements.plist */,
-				2BF51C5B9E8D2CE0AEA805B19C926EC3 /* Pods-CleanyModal_Example-dummy.m */,
-				17D43630CCB67336DCA00DA02D469CAC /* Pods-CleanyModal_Example-frameworks.sh */,
-				76C98879B78D0A86A35A50ED920B7602 /* Pods-CleanyModal_Example-Info.plist */,
-				56230807682372B07E3AD286F23632C0 /* Pods-CleanyModal_Example-umbrella.h */,
-				2B16E34311E33BA895641F9099488903 /* Pods-CleanyModal_Example.debug.xcconfig */,
-				F6B884E5C300926C2402E1BFE9F345C5 /* Pods-CleanyModal_Example.release.xcconfig */,
-			);
-			name = "Pods-CleanyModal_Example";
-			path = "Target Support Files/Pods-CleanyModal_Example";
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				44D5347904CF754D6785B84253F2574A /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D815D5C1F184F254E1FC882F5DE7B66D /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9FA206561C917A8644215492CD382501 /* Pods-CleanyModal_Example */,
-				79A851E0468030A7FB610A92E9E7A481 /* Pods-CleanyModal_Example-CleanyModal_Tests */,
+				D43D84CDA8A5CCE12E64EA124E1FFF96 /* Pods-CleanyModal_Example */,
+				4B3CB3AAAF8E1EF1FDA42F26EB9323C3 /* Pods-CleanyModal_Example-CleanyModal_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		E952BB22101CFDEA4BA1C62D60339E75 /* Development Pods */ = {
+		734949756BF73EA0C0AFDD317943E6E5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				EAF4C648153BA0DB266F298D76D01670 /* CleanyModal */,
+				074C3DFA0358BA5C2F084DEB057D7726 /* CleanyModal.modulemap */,
+				602ECFA2EE20A364C8DF4E5D5B86C7E6 /* CleanyModal-dummy.m */,
+				488D580A4F53A6E614E71EF63F75A16F /* CleanyModal-Info.plist */,
+				B2A74D55073D106F3935D0B94F2F68E6 /* CleanyModal-prefix.pch */,
+				2E9FB07A54946B9656A99404293237FE /* CleanyModal-umbrella.h */,
+				2C7D7EE190974AB4BFA3B7D2CCCE9C88 /* CleanyModal.debug.xcconfig */,
+				477641521C03F75DCA03D6092C97E493 /* CleanyModal.release.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CleanyModal";
 			sourceTree = "<group>";
 		};
-		EAF4C648153BA0DB266F298D76D01670 /* CleanyModal */ = {
+		7C706B860B7DFD5083FB8C5525044787 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				9C49A65A23C49AE00012C823 /* Model */,
-				9C7E55A4230EC6CD004975AA /* Helper */,
-				124FA3FFE3EF52A490A9A8C62EC89915 /* CleanyAlertActionTableViewCell.swift */,
-				E925025DD1E9CB928D1F8066F6658DB5 /* CleanyAlertActionTableViewCell.xib */,
-				3BB515C2C39A8F591A88E5A7ABEB91C8 /* CleanyAlertViewController.swift */,
-				384980DB268B69183748A6F150182EEF /* CleanyAlertViewController.xib */,
-				D23EF7AA942DB48B2CAEDC6B98DA1BAE /* CleanyConfig.swift */,
-				45DF7145F2094399C53D5E69DE8060EA /* CleanyModalTransitionDelegates.swift */,
-				185CB41D377BE96FFFF1F33596556E67 /* CleanyModalViewController.swift */,
-				4E9FE516851626725D8958D14E0697EC /* Pod */,
-				504C28D61812FB5C6D1448CAF7E0FF8D /* Support Files */,
+				076FD6D88439D49094D2F62230AD7080 /* NSLayoutConstraint+Extension.swift */,
+				2CE783ADDD4ABAF6E66AA881A7CDB26A /* UIFont+Transform.swift */,
+			);
+			name = Helper;
+			path = CleanyModal/Classes/Helper;
+			sourceTree = "<group>";
+		};
+		9375F6C8568B6AD30C4120FF0F445136 /* CleanyModal */ = {
+			isa = PBXGroup;
+			children = (
+				4D59219C6AD3D06D1F42C9494E72EE02 /* CleanyAlertActionTableViewCell.swift */,
+				E41AA1D3810E6EBF334787B446C6BFD4 /* CleanyAlertActionTableViewCell.xib */,
+				B8EA3775FA7196F6316D62915BCB18D7 /* CleanyAlertViewController.swift */,
+				22A597881553C39BA885582F5788EDFE /* CleanyAlertViewController.xib */,
+				DD3E02DDC2A8847FAA4C94ECA98C2E31 /* CleanyConfig.swift */,
+				189E2B7DF40BBDA8BCD5F72865702333 /* CleanyModalTransitionDelegates.swift */,
+				06B8F63A6BA2A61CCE986A273B29F168 /* CleanyModalViewController.swift */,
+				6D57B6B124AF4EE30072D9AB /* CleanyModalDismisser.swift */,
+				6D57B6B224AF4EE30072D9AB /* CleanyModalPresenter.swift */,
+				6D57B6B324AF4EE30072D9AB /* CleanyModalTransitionInteractor.swift */,
+				7C706B860B7DFD5083FB8C5525044787 /* Helper */,
+				4D9EC218F21E8AD31BF7E206A4462694 /* Model */,
+				A894E3F9F31C7235354D029279A749F5 /* Pod */,
+				734949756BF73EA0C0AFDD317943E6E5 /* Support Files */,
 			);
 			name = CleanyModal;
 			path = ../..;
 			sourceTree = "<group>";
 		};
+		A894E3F9F31C7235354D029279A749F5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C511ACDDA3B516F33B66EDA38D3797B1 /* CleanyModal.podspec */,
+				1352914E0DB0CC5F8B75FF989ACE36E4 /* LICENSE */,
+				4926E45EC7B9D51651A9C9E59F2E1285 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				0879A7C5D88BADA1A22764B57DD80513 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				123E17D18E3B1F526BCCEC796DEE966D /* Products */,
+				7023622AEF6DC3EC91CE05F8B39B2BCF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D43D84CDA8A5CCE12E64EA124E1FFF96 /* Pods-CleanyModal_Example */ = {
+			isa = PBXGroup;
+			children = (
+				79588ABE45EA98F68D673CEE4EB7FE51 /* Pods-CleanyModal_Example.modulemap */,
+				F05363592D7A8848BD90E753B913EC34 /* Pods-CleanyModal_Example-acknowledgements.markdown */,
+				4948894E330AAF529098BA68AADE6A3C /* Pods-CleanyModal_Example-acknowledgements.plist */,
+				2E047636F7B0355C6E30913BAE9BE78E /* Pods-CleanyModal_Example-dummy.m */,
+				04434F27C8D3CE880CE07754CD5D1BE4 /* Pods-CleanyModal_Example-frameworks.sh */,
+				5D5E8EBC7CEBA93AAD0D8096647CB92D /* Pods-CleanyModal_Example-Info.plist */,
+				9A5D2DB1C4B0FFDD787CE8CC2F712541 /* Pods-CleanyModal_Example-umbrella.h */,
+				C90AE216A3298F11583A59BD9DEF51A8 /* Pods-CleanyModal_Example.debug.xcconfig */,
+				24A9848493FBD15ED2B29DC07CB93EFA /* Pods-CleanyModal_Example.release.xcconfig */,
+			);
+			name = "Pods-CleanyModal_Example";
+			path = "Target Support Files/Pods-CleanyModal_Example";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0184457F11DEAEE68BC2D8F46D819259 /* Headers */ = {
+		319BC16F5F912AB46464ED5E41333AF1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9A4C7B87CF295EE1CE5B2368FF6594E /* Pods-CleanyModal_Example-umbrella.h in Headers */,
+				E01D715ECE3FBAB8707D19FEB2713BA9 /* Pods-CleanyModal_Example-CleanyModal_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		998C09FF282B72DF3F5593F576CB9FC4 /* Headers */ = {
+		500CA359F5B70D4A379B2435E34F54EA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19A8DBCED0466FCBA651C9A394824ADF /* Pods-CleanyModal_Example-CleanyModal_Tests-umbrella.h in Headers */,
+				ED36068BAF9B88B4AFAE5ADAE775A972 /* Pods-CleanyModal_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9CF4E25F0830AC8ED09D6685E9328410 /* Headers */ = {
+		924E9EE5ACBA00953F7FCDC864068A5E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBEE045B99E6A46186240FAAE0D47767 /* CleanyModal-umbrella.h in Headers */,
+				5FCAC99BC6ECCB6D4D403D68FFCFD990 /* CleanyModal-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3C3B4D0F1D8596DDF35BEBD44E82CC38 /* Pods-CleanyModal_Example */ = {
+		8E9E090B0F3C05762BED49C52FEB502E /* Pods-CleanyModal_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9DC14809EA38B0562573F0D6C80D146F /* Build configuration list for PBXNativeTarget "Pods-CleanyModal_Example" */;
+			buildConfigurationList = 475A04BD5C95CE0B1BCB5703C62E20E4 /* Build configuration list for PBXNativeTarget "Pods-CleanyModal_Example" */;
 			buildPhases = (
-				0184457F11DEAEE68BC2D8F46D819259 /* Headers */,
-				F2B2DD4CAB1605856E43F36E137326B3 /* Sources */,
-				B9D149E7D0C44286AA02805E26B033FA /* Frameworks */,
-				E21D91952A3E404A2811B629E955150B /* Resources */,
+				500CA359F5B70D4A379B2435E34F54EA /* Headers */,
+				59B03D32216A10C59852A167DC954327 /* Sources */,
+				70085F094AB4B1DDC3BD44AA550C7367 /* Frameworks */,
+				1726E84A57F8C7A63131B343487ECCB8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C81D84ECB3DD0DB02AC33CB15C0CD46C /* PBXTargetDependency */,
+				302624CC3EC3EF446B385D9893AD7DE9 /* PBXTargetDependency */,
 			);
 			name = "Pods-CleanyModal_Example";
 			productName = "Pods-CleanyModal_Example";
-			productReference = 04781DC1E844651229847B76D586F1D8 /* Pods_CleanyModal_Example.framework */;
+			productReference = B22528147EE16986EE08EE6A3498455D /* Pods_CleanyModal_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5C2180AB1D8E117DE733E0A0552D8364 /* CleanyModal */ = {
+		9C45A829CDBA420E188ABC8136AA36AF /* CleanyModal */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2F899E4EA44B5DD6D5FF7BFF4421CDD /* Build configuration list for PBXNativeTarget "CleanyModal" */;
+			buildConfigurationList = 0E9477B4A996CED9C1C1F7C2D2173E26 /* Build configuration list for PBXNativeTarget "CleanyModal" */;
 			buildPhases = (
-				9CF4E25F0830AC8ED09D6685E9328410 /* Headers */,
-				A49A26FCA0394D6ACF9FE24C4E91D657 /* Sources */,
-				4B872FA54546C3162790F4B82C8B8ED2 /* Frameworks */,
-				87544083E4A71458954AD96FBD89B6BC /* Resources */,
+				924E9EE5ACBA00953F7FCDC864068A5E /* Headers */,
+				6A082C87ADA355B8DB284E327017A808 /* Sources */,
+				81859345CA393FA92FC24B5DDDC69210 /* Frameworks */,
+				147779400889DA68A73E69625C64C0E8 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -327,43 +343,38 @@
 			);
 			name = CleanyModal;
 			productName = CleanyModal;
-			productReference = 7E7CB11D4F5A23C44A8BCF3184570E85 /* CleanyModal.framework */;
+			productReference = 6F19C207FF57A79C96CDD602E9A945BE /* CleanyModal.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E940FE7B98DB9F4620365EA1870E6BA0 /* Pods-CleanyModal_Example-CleanyModal_Tests */ = {
+		DD0B1665C4D9209A8EBB0946292EB4CB /* Pods-CleanyModal_Example-CleanyModal_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3085C5E4454C489D2080C3D1AB0A7191 /* Build configuration list for PBXNativeTarget "Pods-CleanyModal_Example-CleanyModal_Tests" */;
+			buildConfigurationList = C32C1DC862872C152DCB0D3C3F03C266 /* Build configuration list for PBXNativeTarget "Pods-CleanyModal_Example-CleanyModal_Tests" */;
 			buildPhases = (
-				998C09FF282B72DF3F5593F576CB9FC4 /* Headers */,
-				2DD5F48E6F2F642A0BBA2402690C7213 /* Sources */,
-				20B5AD3DB7DDC1304EFE98D878E7D527 /* Frameworks */,
-				29B31363E344F01B0A3DBD07A3D88A03 /* Resources */,
+				319BC16F5F912AB46464ED5E41333AF1 /* Headers */,
+				5EF3D6E1BE01FAF586069C1B74E017BB /* Sources */,
+				A23918047D860CEDFB6AAF6E7E33D5EF /* Frameworks */,
+				B987D5CDD3BF4996669086A8CED6477F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DEE1CA00B7702DAB1765F4EB90EB30C7 /* PBXTargetDependency */,
+				C8CE13282C25EACC30B07507D976E3D6 /* PBXTargetDependency */,
 			);
 			name = "Pods-CleanyModal_Example-CleanyModal_Tests";
 			productName = "Pods-CleanyModal_Example-CleanyModal_Tests";
-			productReference = 1314A2AF375577DA2A13B4A48F2BBE1F /* Pods_CleanyModal_Example_CleanyModal_Tests.framework */;
+			productReference = 47FB99B4A982BC6165FF33A7F31B3B74 /* Pods_CleanyModal_Example_CleanyModal_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
-				TargetAttributes = {
-					5C2180AB1D8E117DE733E0A0552D8364 = {
-						LastSwiftMigration = 1020;
-					};
-				};
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -371,34 +382,34 @@
 				en,
 				Base,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 9E95EC380045A1D41EDA7A84C9CDB92E /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 123E17D18E3B1F526BCCEC796DEE966D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5C2180AB1D8E117DE733E0A0552D8364 /* CleanyModal */,
-				3C3B4D0F1D8596DDF35BEBD44E82CC38 /* Pods-CleanyModal_Example */,
-				E940FE7B98DB9F4620365EA1870E6BA0 /* Pods-CleanyModal_Example-CleanyModal_Tests */,
+				9C45A829CDBA420E188ABC8136AA36AF /* CleanyModal */,
+				8E9E090B0F3C05762BED49C52FEB502E /* Pods-CleanyModal_Example */,
+				DD0B1665C4D9209A8EBB0946292EB4CB /* Pods-CleanyModal_Example-CleanyModal_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		29B31363E344F01B0A3DBD07A3D88A03 /* Resources */ = {
+		147779400889DA68A73E69625C64C0E8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		87544083E4A71458954AD96FBD89B6BC /* Resources */ = {
+		1726E84A57F8C7A63131B343487ECCB8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E21D91952A3E404A2811B629E955150B /* Resources */ = {
+		B987D5CDD3BF4996669086A8CED6477F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -408,60 +419,64 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2DD5F48E6F2F642A0BBA2402690C7213 /* Sources */ = {
+		59B03D32216A10C59852A167DC954327 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA7A178F562C72937CE35C46473D0CB9 /* Pods-CleanyModal_Example-CleanyModal_Tests-dummy.m in Sources */,
+				954418451D92E73F3A98F7F20263B1E1 /* Pods-CleanyModal_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A49A26FCA0394D6ACF9FE24C4E91D657 /* Sources */ = {
+		5EF3D6E1BE01FAF586069C1B74E017BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A0E38830423D386AA983EC791E27F01 /* CleanyAlertActionTableViewCell.swift in Sources */,
-				A04D89FEAC8C6F4D0270B8F8C54AABE8 /* CleanyAlertActionTableViewCell.xib in Sources */,
-				F5851D9401DD2348D879D0C24D1826B4 /* CleanyAlertViewController.swift in Sources */,
-				9C49A66023C4DC5F0012C823 /* NSLayoutConstraint+Extension.swift in Sources */,
-				9A3C93D2B19D3BB115C23923035BAFC7 /* CleanyAlertViewController.xib in Sources */,
-				6F75637FB8334A6D90F3EFAFD0D6422F /* CleanyConfig.swift in Sources */,
-				BACFB0B49530786397F7A18728BD37E8 /* CleanyModal-dummy.m in Sources */,
-				CE5645862F841EC309A645C3A9C646B1 /* CleanyModalTransitionDelegates.swift in Sources */,
-				9C49A65E23C4DC550012C823 /* AlertModel.swift in Sources */,
-				14E8F182E82E5BC3021490BD61236664 /* CleanyModalViewController.swift in Sources */,
+				F4A094CFB170DB67CBD4CECECF640ED5 /* Pods-CleanyModal_Example-CleanyModal_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F2B2DD4CAB1605856E43F36E137326B3 /* Sources */ = {
+		6A082C87ADA355B8DB284E327017A808 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EB2CE602E0D6667788532BBDB7A4F74 /* Pods-CleanyModal_Example-dummy.m in Sources */,
+				62D5FBC61D39E66942463361118C160F /* AlertModel.swift in Sources */,
+				6D57B6B424AF4EE30072D9AB /* CleanyModalDismisser.swift in Sources */,
+				6D57B6B524AF4EE30072D9AB /* CleanyModalPresenter.swift in Sources */,
+				1F2317F9F31DA8500C929C794E1B0481 /* CleanyAlertActionTableViewCell.swift in Sources */,
+				012764188FF2117F47B829F2F8A8D605 /* CleanyAlertActionTableViewCell.xib in Sources */,
+				2B0320AE0D9507B3D66FE25A6D546D66 /* CleanyAlertViewController.swift in Sources */,
+				7AE0498B8D1BAC7A1C206B83C92CDA33 /* CleanyAlertViewController.xib in Sources */,
+				A6A709C8F4800AC623F2105E41DE2921 /* CleanyConfig.swift in Sources */,
+				738F298176D64C10D92B6EFED06EFA3B /* CleanyModal-dummy.m in Sources */,
+				6D57B6B624AF4EE30072D9AB /* CleanyModalTransitionInteractor.swift in Sources */,
+				ED3249A8A59D137CAD116A4BAB9110AF /* CleanyModalTransitionDelegates.swift in Sources */,
+				F18FBBD86786C7B5EB534A5B8F52CF89 /* CleanyModalViewController.swift in Sources */,
+				650DE0C38E839E9EA411BA9795808503 /* NSLayoutConstraint+Extension.swift in Sources */,
+				587BF4B2A96B3FB009EAABD5348014FF /* UIFont+Transform.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C81D84ECB3DD0DB02AC33CB15C0CD46C /* PBXTargetDependency */ = {
+		302624CC3EC3EF446B385D9893AD7DE9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CleanyModal;
-			target = 5C2180AB1D8E117DE733E0A0552D8364 /* CleanyModal */;
-			targetProxy = 4912B171D7CE7A75A7754788A6590A43 /* PBXContainerItemProxy */;
+			target = 9C45A829CDBA420E188ABC8136AA36AF /* CleanyModal */;
+			targetProxy = 5975D5320D645F215E3FE78E0CA88737 /* PBXContainerItemProxy */;
 		};
-		DEE1CA00B7702DAB1765F4EB90EB30C7 /* PBXTargetDependency */ = {
+		C8CE13282C25EACC30B07507D976E3D6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CleanyModal;
-			target = 5C2180AB1D8E117DE733E0A0552D8364 /* CleanyModal */;
-			targetProxy = A64ED27189F3DEA3B6FD41AD85FFF0A3 /* PBXContainerItemProxy */;
+			target = 9C45A829CDBA420E188ABC8136AA36AF /* CleanyModal */;
+			targetProxy = 195D9A3D036821839864D21CCD652757 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		082311FB2E29BDB0FF00D140ECADA3DD /* Debug */ = {
+		45AFB3BC721A75AFD9023752C52F04D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0FDD98CB7A6795E073C16F36BC0445B5 /* Pods-CleanyModal_Example-CleanyModal_Tests.debug.xcconfig */;
+			baseConfigurationReference = 0A958A0F3451F3866DF6A0796D73E92C /* Pods-CleanyModal_Example-CleanyModal_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -492,9 +507,9 @@
 			};
 			name = Debug;
 		};
-		2846DA8FF44FA871082C31208D9630EB /* Release */ = {
+		4B1317B3716D56B3B586A86DB14090AC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C8E34D9A68FD6DF660981A0125DDC35E /* Pods-CleanyModal_Example-CleanyModal_Tests.release.xcconfig */;
+			baseConfigurationReference = C90AE216A3298F11583A59BD9DEF51A8 /* Pods-CleanyModal_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -506,12 +521,45 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CleanyModal_Example-CleanyModal_Tests/Pods-CleanyModal_Example-CleanyModal_Tests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-CleanyModal_Example/Pods-CleanyModal_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CleanyModal_Example-CleanyModal_Tests/Pods-CleanyModal_Example-CleanyModal_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-CleanyModal_Example/Pods-CleanyModal_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		635EB162A556F99F8A0047B22DB99F71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24A9848493FBD15ED2B29DC07CB93EFA /* Pods-CleanyModal_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CleanyModal_Example/Pods-CleanyModal_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CleanyModal_Example/Pods-CleanyModal_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -526,7 +574,129 @@
 			};
 			name = Release;
 		};
-		5153DC2E9BB4F6D6F85AF7C0A4A2A27F /* Debug */ = {
+		8B5CD1ED84F5B926043E3A4EAABE2DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C7D7EE190974AB4BFA3B7D2CCCE9C88 /* CleanyModal.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CleanyModal/CleanyModal-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CleanyModal/CleanyModal-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CleanyModal/CleanyModal.modulemap";
+				PRODUCT_MODULE_NAME = CleanyModal;
+				PRODUCT_NAME = CleanyModal;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A51D300E566C0F603664C96D6648790B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 477641521C03F75DCA03D6092C97E493 /* CleanyModal.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CleanyModal/CleanyModal-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CleanyModal/CleanyModal-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CleanyModal/CleanyModal.modulemap";
+				PRODUCT_MODULE_NAME = CleanyModal;
+				PRODUCT_NAME = CleanyModal;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -585,139 +755,14 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		5810C457C10D5E84AB7C29A563D9356D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA9EED76131E5F457656147D73DEEFCE /* CleanyModal.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CleanyModal/CleanyModal-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CleanyModal/CleanyModal-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MARKETING_VERSION = 1.0.2;
-				MODULEMAP_FILE = "Target Support Files/CleanyModal/CleanyModal.modulemap";
-				PRODUCT_MODULE_NAME = CleanyModal;
-				PRODUCT_NAME = CleanyModal;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6A949A208667F02694AF29D5DCC8D4BF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		740AF4DE854C8A8ED7AC7369091D345F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B16E34311E33BA895641F9099488903 /* Pods-CleanyModal_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CleanyModal_Example/Pods-CleanyModal_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CleanyModal_Example/Pods-CleanyModal_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		D178FD5525136EFB84546CB2393FE60D /* Release */ = {
+		C15E0D9B2D5EA2E74339E3A46A2EB4D6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6B884E5C300926C2402E1BFE9F345C5 /* Pods-CleanyModal_Example.release.xcconfig */;
+			baseConfigurationReference = D3660462A4F53F9CDFCEFE615C93F6AD /* Pods-CleanyModal_Example-CleanyModal_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -729,12 +774,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CleanyModal_Example/Pods-CleanyModal_Example-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-CleanyModal_Example-CleanyModal_Tests/Pods-CleanyModal_Example-CleanyModal_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CleanyModal_Example/Pods-CleanyModal_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-CleanyModal_Example-CleanyModal_Tests/Pods-CleanyModal_Example-CleanyModal_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -748,79 +793,47 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		D6D724D5EB300AE05A2AA38AA7732256 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA9EED76131E5F457656147D73DEEFCE /* CleanyModal.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CleanyModal/CleanyModal-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CleanyModal/CleanyModal-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MARKETING_VERSION = 1.0.2;
-				MODULEMAP_FILE = "Target Support Files/CleanyModal/CleanyModal.modulemap";
-				PRODUCT_MODULE_NAME = CleanyModal;
-				PRODUCT_NAME = CleanyModal;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		0E9477B4A996CED9C1C1F7C2D2173E26 /* Build configuration list for PBXNativeTarget "CleanyModal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5153DC2E9BB4F6D6F85AF7C0A4A2A27F /* Debug */,
-				6A949A208667F02694AF29D5DCC8D4BF /* Release */,
+				8B5CD1ED84F5B926043E3A4EAABE2DAA /* Debug */,
+				A51D300E566C0F603664C96D6648790B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3085C5E4454C489D2080C3D1AB0A7191 /* Build configuration list for PBXNativeTarget "Pods-CleanyModal_Example-CleanyModal_Tests" */ = {
+		475A04BD5C95CE0B1BCB5703C62E20E4 /* Build configuration list for PBXNativeTarget "Pods-CleanyModal_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				082311FB2E29BDB0FF00D140ECADA3DD /* Debug */,
-				2846DA8FF44FA871082C31208D9630EB /* Release */,
+				4B1317B3716D56B3B586A86DB14090AC /* Debug */,
+				635EB162A556F99F8A0047B22DB99F71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9DC14809EA38B0562573F0D6C80D146F /* Build configuration list for PBXNativeTarget "Pods-CleanyModal_Example" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				740AF4DE854C8A8ED7AC7369091D345F /* Debug */,
-				D178FD5525136EFB84546CB2393FE60D /* Release */,
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2F899E4EA44B5DD6D5FF7BFF4421CDD /* Build configuration list for PBXNativeTarget "CleanyModal" */ = {
+		C32C1DC862872C152DCB0D3C3F03C266 /* Build configuration list for PBXNativeTarget "Pods-CleanyModal_Example-CleanyModal_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D6D724D5EB300AE05A2AA38AA7732256 /* Debug */,
-				5810C457C10D5E84AB7C29A563D9356D /* Release */,
+				45AFB3BC721A75AFD9023752C52F04D2 /* Debug */,
+				C15E0D9B2D5EA2E74339E3A46A2EB4D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

@@ -27,15 +27,33 @@ class ViewController: UIViewController {
     }
     
     @IBAction func showBasicAlertAction(_ sender: UIButton) {
-        let alert = MyAlertViewController(
+        let styleSettings = CleanyAlertConfig.defaults()
+        styleSettings[.cornerRadius] = 15
+        styleSettings[.actionCellHeight] = 44
+        styleSettings[.tintColor] = .black
+        let alertController = CleanyAlertViewController(
             title: "Hello world",
             message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed massa a magna semper semper a eget justo",
-            imageName: "warning_icon")
+            preferredStyle: .alert,
+            styleSettings: styleSettings
+        )
+        if #available(iOS 13.0, *) {
+            alertController.overrideUserInterfaceStyle = .light
+        }
+        alertController.addAction(title: "OK", style: .default)
+        alertController.addAction(title: "Cancel", style: .cancel)
 
-        alert.addAction(title: "OK", style: .default)
-        alert.addAction(title: "Cancel", style: .cancel)
-        
-        present(alert, animated: true, completion: nil)
+        present(alertController, animated: true)
+
+//        let alert = MyAlertViewController(
+//            title: "Hello world",
+//            message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed massa a magna semper semper a eget justo",
+//            imageName: "warning_icon")
+//
+//        alert.addAction(title: "OK", style: .default)
+//        alert.addAction(title: "Cancel", style: .cancel)
+//
+//        present(alert, animated: true, completion: nil)
     }
     
     @IBAction func showTextfieldAlertAction(_ sender: UIButton) {
@@ -79,7 +97,7 @@ class ViewController: UIViewController {
 class MyAlertViewController: CleanyAlertViewController {
     
     init(title: String?, message: String?, imageName: String? = nil, preferredStyle: CleanyAlertViewController.Style = .alert) {
-        let styleSettings = CleanyAlertConfig.getDefaultStyleSettings()
+        let styleSettings = CleanyAlertConfig.defaults()
         styleSettings[.cornerRadius] = 18
         super.init(title: title, message: message, imageName: imageName, preferredStyle: preferredStyle, styleSettings: styleSettings)
     }

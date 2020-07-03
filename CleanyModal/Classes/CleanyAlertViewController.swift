@@ -9,7 +9,7 @@ import UIKit
 
 private let kFooterMargin: CGFloat = 0
 private let kCellReuseIdentifier = "actionCell"
-private let kCellDefaultHeight: CGFloat = 60.0
+private let kCellDefaultHeight: CGFloat = 44.0
 
 open class CleanyAlertViewController: CleanyModalViewController {
     
@@ -39,10 +39,13 @@ open class CleanyAlertViewController: CleanyModalViewController {
     
     @IBOutlet weak private var messageLB: UILabel!
     @IBOutlet weak private var titleLB: UILabel!
+
+    @IBOutlet weak private var separatorView: UIView!
+    @IBOutlet weak private var separatorViewHeightConstraint: NSLayoutConstraint!
     
-    @IBOutlet weak public  var contentStackView: UIStackView!
-    @IBOutlet weak public  var iconIV: UIImageView!
-    
+    @IBOutlet weak public var contentStackView: UIStackView!
+    @IBOutlet weak public var iconIV: UIImageView!
+
     private var _stackedViews: [(view: UIView, height: CGFloat)]? = nil
 
     open var textViews: [UITextView]? {
@@ -70,7 +73,7 @@ open class CleanyAlertViewController: CleanyModalViewController {
         )
         
         self.dataSource = AlertModel(title: title, message: message, iconName: imageName)
-        self.styleSettings = styleSettings ?? CleanyAlertConfig.getDefaultStyleSettings()
+        self.styleSettings = styleSettings ?? CleanyAlertConfig.defaults()
         self.preferredStyle = preferredStyle
         
         if let nibName = customNibName {
@@ -135,7 +138,7 @@ open class CleanyAlertViewController: CleanyModalViewController {
             iconIV.removeFromSuperview()
         }
         
-        actionsTV.separatorColor = UIColor.black.withAlphaComponent(0.08) // TODO: Put in config
+        actionsTV.separatorColor = styleSettings[.separatorColor]
         
         handleTableViewActions()
         applyStyle()
@@ -152,6 +155,9 @@ open class CleanyAlertViewController: CleanyModalViewController {
                 constant: viewTuple.height)
             )
         })
+
+        separatorViewHeightConstraint.constant = 0.5
+        separatorView.backgroundColor = styleSettings[.separatorColor]
     }
     
     open override func viewWillDisappear(_ animated: Bool) {
@@ -335,6 +341,9 @@ extension CleanyAlertViewController: UITableViewDataSource, UITableViewDelegate 
         
         if let font = styleSettings[.actionsFont] {
             cell.textLabel?.font = font
+        }
+        if action?.style == .cancel {
+            cell.textLabel?.font = cell.textLabel?.font.bold
         }
         
         cell.title = action?.title
