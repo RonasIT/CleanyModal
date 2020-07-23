@@ -27,7 +27,7 @@ open class CleanyAlertViewController: CleanyModalViewController {
         }
     }
     
-    @IBOutlet weak private var mainContentView: UIView!
+    @IBOutlet weak private var mainContentView: CleanyContentView!
     
     @IBOutlet weak private var actionsTV: UITableView!
     
@@ -39,9 +39,6 @@ open class CleanyAlertViewController: CleanyModalViewController {
     
     @IBOutlet weak private var messageLB: UILabel!
     @IBOutlet weak private var titleLB: UILabel!
-
-    @IBOutlet weak private var separatorView: UIView!
-    @IBOutlet weak private var separatorViewHeightConstraint: NSLayoutConstraint!
     
     @IBOutlet weak public var contentStackView: UIStackView!
     @IBOutlet weak public var iconIV: UIImageView!
@@ -156,8 +153,13 @@ open class CleanyAlertViewController: CleanyModalViewController {
             )
         })
 
-        separatorViewHeightConstraint.constant = 0.5
-        separatorView.backgroundColor = styleSettings[.separatorColor]
+        mainContentView.separatorColor = styleSettings[.separatorColor]
+    }
+
+    open override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        mainContentView.separatorPosition = actionsTV.frame.origin
+        mainContentView.setNeedsDisplay()
     }
     
     open override func viewWillDisappear(_ animated: Bool) {

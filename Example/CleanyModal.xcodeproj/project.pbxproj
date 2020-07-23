@@ -224,11 +224,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = 5KVMHF799N;
+						DevelopmentTeam = W78QWT9EXA;
 						LastSwiftMigration = 1020;
 					};
 					9CF1551922025F6300DA5F92 = {
 						CreatedOnToolsVersion = 10.1;
+						DevelopmentTeam = W78QWT9EXA;
 						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 607FACCF1AFB9204008FA782;
@@ -512,7 +513,7 @@
 			baseConfigurationReference = 01B1F3735883510D98330C6A /* Pods-CleanyModal_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 5KVMHF799N;
+				DEVELOPMENT_TEAM = W78QWT9EXA;
 				INFOPLIST_FILE = CleanyModal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -527,7 +528,7 @@
 			baseConfigurationReference = 7A8A2828338056B4450A908E /* Pods-CleanyModal_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 5KVMHF799N;
+				DEVELOPMENT_TEAM = W78QWT9EXA;
 				INFOPLIST_FILE = CleanyModal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -549,8 +550,10 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = W78QWT9EXA;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = CleanyModal_Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
@@ -578,7 +581,9 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W78QWT9EXA;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = CleanyModal_Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;

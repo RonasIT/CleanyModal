@@ -19,6 +19,7 @@
 		6D57B6B424AF4EE30072D9AB /* CleanyModalDismisser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D57B6B124AF4EE30072D9AB /* CleanyModalDismisser.swift */; };
 		6D57B6B524AF4EE30072D9AB /* CleanyModalPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D57B6B224AF4EE30072D9AB /* CleanyModalPresenter.swift */; };
 		6D57B6B624AF4EE30072D9AB /* CleanyModalTransitionInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D57B6B324AF4EE30072D9AB /* CleanyModalTransitionInteractor.swift */; };
+		6D68973824C98CD300AFB6DA /* CleanyContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D68973724C98CD300AFB6DA /* CleanyContentView.swift */; };
 		738F298176D64C10D92B6EFED06EFA3B /* CleanyModal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 602ECFA2EE20A364C8DF4E5D5B86C7E6 /* CleanyModal-dummy.m */; };
 		7AE0498B8D1BAC7A1C206B83C92CDA33 /* CleanyAlertViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 22A597881553C39BA885582F5788EDFE /* CleanyAlertViewController.xib */; };
 		954418451D92E73F3A98F7F20263B1E1 /* Pods-CleanyModal_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E047636F7B0355C6E30913BAE9BE78E /* Pods-CleanyModal_Example-dummy.m */; };
@@ -78,6 +79,7 @@
 		6D57B6B124AF4EE30072D9AB /* CleanyModalDismisser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CleanyModalDismisser.swift; path = CleanyModal/Classes/CleanyModalDismisser.swift; sourceTree = "<group>"; };
 		6D57B6B224AF4EE30072D9AB /* CleanyModalPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CleanyModalPresenter.swift; path = CleanyModal/Classes/CleanyModalPresenter.swift; sourceTree = "<group>"; };
 		6D57B6B324AF4EE30072D9AB /* CleanyModalTransitionInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CleanyModalTransitionInteractor.swift; path = CleanyModal/Classes/CleanyModalTransitionInteractor.swift; sourceTree = "<group>"; };
+		6D68973724C98CD300AFB6DA /* CleanyContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanyContentView.swift; sourceTree = "<group>"; };
 		6F19C207FF57A79C96CDD602E9A945BE /* CleanyModal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CleanyModal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F393F6DF0A4872DE6DD33E41137C724 /* Pods-CleanyModal_Example-CleanyModal_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CleanyModal_Example-CleanyModal_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		79588ABE45EA98F68D673CEE4EB7FE51 /* Pods-CleanyModal_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CleanyModal_Example.modulemap"; sourceTree = "<group>"; };
@@ -210,6 +212,7 @@
 				E41AA1D3810E6EBF334787B446C6BFD4 /* CleanyAlertActionTableViewCell.xib */,
 				B8EA3775FA7196F6316D62915BCB18D7 /* CleanyAlertViewController.swift */,
 				22A597881553C39BA885582F5788EDFE /* CleanyAlertViewController.xib */,
+				6D68973724C98CD300AFB6DA /* CleanyContentView.swift */,
 				DD3E02DDC2A8847FAA4C94ECA98C2E31 /* CleanyConfig.swift */,
 				189E2B7DF40BBDA8BCD5F72865702333 /* CleanyModalTransitionDelegates.swift */,
 				06B8F63A6BA2A61CCE986A273B29F168 /* CleanyModalViewController.swift */,
@@ -453,6 +456,7 @@
 				F18FBBD86786C7B5EB534A5B8F52CF89 /* CleanyModalViewController.swift in Sources */,
 				650DE0C38E839E9EA411BA9795808503 /* NSLayoutConstraint+Extension.swift in Sources */,
 				587BF4B2A96B3FB009EAABD5348014FF /* UIFont+Transform.swift in Sources */,
+				6D68973824C98CD300AFB6DA /* CleanyContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

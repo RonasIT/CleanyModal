@@ -20,7 +20,7 @@ public extension CleanyAlertConfig {
         styleSettings.set(key: .tintColor, value: .blue)
         styleSettings.set(key: .textColor, value: .black)
         styleSettings.set(key: .destructiveColor, value: .red)
-        styleSettings.set(key: .separatorColor, value: .init(white: 0.7, alpha: 1))
+        styleSettings.set(key: .separatorColor, value: .init(white: 0.5, alpha: 1))
         
         if #available(iOS 13.0, *) {
             #if swift(>=5.0)
