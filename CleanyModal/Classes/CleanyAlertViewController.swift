@@ -11,12 +11,12 @@ private let kFooterMargin: CGFloat = 0
 private let kCellReuseIdentifier = "actionCell"
 private let kCellDefaultHeight: CGFloat = 44.0
 
-final class CleanyContentView: UIView {
+open class CleanyContentView: UIView {
 
     var separatorColor: UIColor?
     var separatorPosition: CGPoint = .zero
 
-    override func draw(_ rect: CGRect) {
+    open override func draw(_ rect: CGRect) {
         guard let color = separatorColor, let context = UIGraphicsGetCurrentContext() else {
             return
         }
