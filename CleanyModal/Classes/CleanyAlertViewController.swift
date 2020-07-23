@@ -11,27 +11,6 @@ private let kFooterMargin: CGFloat = 0
 private let kCellReuseIdentifier = "actionCell"
 private let kCellDefaultHeight: CGFloat = 44.0
 
-open class CleanyContentView: UIView {
-
-    var separatorColor: UIColor?
-    var separatorPosition: CGPoint = .zero
-
-    open override func draw(_ rect: CGRect) {
-        guard let color = separatorColor, let context = UIGraphicsGetCurrentContext() else {
-            return
-        }
-        context.saveGState()
-        context.setLineWidth(0.5)
-        context.setStrokeColor(color.cgColor)
-
-        context.move(to: CGPoint(x: separatorPosition.x, y: separatorPosition.y))
-        context.addLine(to: CGPoint(x: bounds.size.width, y: separatorPosition.y))
-
-        context.strokePath()
-        context.restoreGState()
-    }
-}
-
 open class CleanyAlertViewController: CleanyModalViewController {
     
     public enum Style: IntegerLiteralType {
@@ -48,7 +27,7 @@ open class CleanyAlertViewController: CleanyModalViewController {
         }
     }
     
-    @IBOutlet weak private var mainContentView: CleanyContentView!
+    @IBOutlet weak private var mainContentView: UIView!
     
     @IBOutlet weak private var actionsTV: UITableView!
     
@@ -156,8 +135,6 @@ open class CleanyAlertViewController: CleanyModalViewController {
             iconIV.removeFromSuperview()
         }
         
-        actionsTV.separatorColor = styleSettings[.separatorColor]
-        
         handleTableViewActions()
         applyStyle()
         
@@ -173,14 +150,6 @@ open class CleanyAlertViewController: CleanyModalViewController {
                 constant: viewTuple.height)
             )
         })
-
-        mainContentView.separatorColor = styleSettings[.separatorColor]
-    }
-
-    open override func viewDidLayoutSubviews() {
-        super.viewDidLayoutSubviews()
-        mainContentView.separatorPosition = actionsTV.frame.origin
-        mainContentView.setNeedsDisplay()
     }
     
     open override func viewWillDisappear(_ animated: Bool) {
@@ -320,7 +289,6 @@ open class CleanyAlertViewController: CleanyModalViewController {
             }
             
             let count = numberOfRowsInActionsTable()
-            actionsTV.separatorStyle = _actions != nil && count > 1 ? .singleLine : .none
             
             actionsTVHeight.constant = (styleSettings[.actionCellHeight] ?? kCellDefaultHeight) * CGFloat(count) + kFooterMargin
             
@@ -368,7 +336,8 @@ extension CleanyAlertViewController: UITableViewDataSource, UITableViewDelegate 
         if action?.style == .cancel {
             cell.textLabel?.font = cell.textLabel?.font.bold
         }
-        
+
+        cell.separatorColor = styleSettings[.separatorColor]
         cell.title = action?.title
         cell.img = action?.image
         
