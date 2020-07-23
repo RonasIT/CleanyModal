@@ -135,6 +135,8 @@ open class CleanyAlertViewController: CleanyModalViewController {
             iconIV.removeFromSuperview()
         }
         
+        actionsTV.separatorColor = .clear
+
         handleTableViewActions()
         applyStyle()
         
